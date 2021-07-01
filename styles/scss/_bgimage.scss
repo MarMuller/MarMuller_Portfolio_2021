@@ -1,0 +1,12 @@
+.imgejemplo {
+    background-image: url(../../images/bg/poisoned-2.png);
+}
+
+@for $i from 2 through 5 {
+  .imgejemplo#{$i} {
+    $i: $i - 1;
+    background-image: url(../../images/art/art-0#{$i}.png);
+    background-position: center;
+    background-size: cover;
+  }
+}

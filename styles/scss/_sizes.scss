@@ -1,0 +1,15 @@
+.heightAuto{
+  height:auto;
+}
+
+@for $i from 1 through 5 {
+  .height#{$i*100} {
+    height: 100px * $i;
+  }
+}
+
+@for $i from 1 through 10 {
+  .width#{$i*10} {
+    width: 10% * $i;
+  }
+}
