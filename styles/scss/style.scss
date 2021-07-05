@@ -18,14 +18,13 @@ nav {
   width: 50px;
   height: 50px;
   /*cursor: pointer;*/
-
   a {
     width: 50px;
     height: 50px;
     img {
-      width: 45px;
-      height: 45px;
-      margin: 2px 0 0 2px;
+      width: 35px;
+      height: 35px;
+      margin: 6px 0 0 5px;
     }
   }
 }
@@ -146,7 +145,7 @@ a.nav__menu-button {
   flex-direction: column;
   transform: translateY(-80px);
 
-  h1 {
+  span {
     padding: 0 5px;
     margin: 10px 0;
     text-align: center;
