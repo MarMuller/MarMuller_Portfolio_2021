@@ -1,5 +1,13 @@
+.img-banner {
+    background-image: url(../../images/bg/blue-mermaid.png);
+    background-position: center;
+    background-size: cover;
+}
+
 .imgejemplo {
     background-image: url(../../images/bg/poisoned-2.png);
+    background-position: center;
+    background-size: cover;
 }
 
 @for $i from 2 through 5 {
@@ -9,4 +17,22 @@
     background-position: center;
     background-size: cover;
   }
+}
+
+.img-illustration {
+    background-image: url(../../images/jpg/foto_1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.img-design {
+    background-image: url(../../images/jpg/foto_2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.img-coding {
+    background-image: url(../../images/jpg/foto_3.jpg);
+    background-position: center;
+    background-size: cover;
 }
