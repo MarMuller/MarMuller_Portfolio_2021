@@ -1,7 +1,0 @@
-Te dejo unas recomendaciones para corregir un par de cosas:
-
-
-
-El title y los <h1> tienen un significado semántico importantísimo para búsquedas, y vendría bien que los desarrolles un poco mejor, en los casos que corresponda, con algo relacionado a lo que buscaría una persona en Google. En tu ejercicio tenés por ejemplo un <h1> Hola, Soy  que no tiene mucho valor. Distinto sería algo relacionado a tu actividad, tu producto o servicios, o algo que tuviese palabras clave que un usuario pondría a la hora de hacer una búsqueda, según tu tema, como "diseñadora gráfica que haga ilustración". Para ese cliente un Hola, soy de <h1> no tendría mucho sentido.
-Las etiquetas meta deberían adecuarse al html específico en el que se está parado, por lo que vendría bien que cada html tuviese una descripción única acorde a su contenido, en vez de repetir la misma en todos.
-Por último, evitaría las abreviaturas como la de Lic. porque no valen mucho para las búsquedas tampoco.
