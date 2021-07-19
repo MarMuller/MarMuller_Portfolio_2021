@@ -43,12 +43,6 @@
         </a>
       </div>
 
-      <!--
-      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Dropdown button
-      </button>
-      -->
-
       <div id="nav__menu" class="myButtons">
         <a href="#" class="nav__menu-button">
           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
@@ -92,49 +86,94 @@
     <div id="block__gallery" class="auto-height section gallery">
       <div class="images">
 
-        <div class="picture" data-toggle="modal" data-target="#exampleModal">
+        <div class="picture imgArt1" data-toggle="modal" data-target="#exampleModal" onclick="pickImage(1)">
         </div>
 
-        <div class="picture" data-toggle="modal" data-target="#exampleModal">
+        <div class="picture imgArt2" data-toggle="modal" data-target="#exampleModal" onclick="pickImage(2)">
         </div>
 
-        <div class="picture" data-toggle="modal" data-target="#exampleModal">
+        <div class="picture imgArt3" data-toggle="modal" data-target="#exampleModal" onclick="pickImage(3)">
         </div>
 
-        <div class="picture" data-toggle="modal" data-target="#exampleModal">
+        <div class="picture imgArt4" data-toggle="modal" data-target="#exampleModal" onclick="pickImage(4)">
         </div>
 
-        <div class="picture" data-toggle="modal" data-target="#exampleModal">
+        <div class="picture imgArt5" data-toggle="modal" data-target="#exampleModal" onclick="pickImage(5)">
         </div>
 
-        <div class="picture" data-toggle="modal" data-target="#exampleModal">
+        <div class="picture imgArt6" data-toggle="modal" data-target="#exampleModal" onclick="pickImage(6)">
         </div>
 
-        <div class="picture" data-toggle="modal" data-target="#exampleModal">
+        <div class="picture imgArt7" data-toggle="modal" data-target="#exampleModal" onclick="pickImage(7)">
         </div>
 
-        <div class="picture" data-toggle="modal" data-target="#exampleModal">
+        <div class="picture imgArt8" data-toggle="modal" data-target="#exampleModal" onclick="pickImage(8)">
         </div>
 
-        <div class="picture" data-toggle="modal" data-target="#exampleModal">
+        <div class="picture imgArt9" data-toggle="modal" data-target="#exampleModal" onclick="pickImage(9)">
         </div>
 
-        <div class="picture" data-toggle="modal" data-target="#exampleModal">
+        <div class="picture imgArt10" data-toggle="modal" data-target="#exampleModal" onclick="pickImage(10)">
         </div>
 
-        <div class="picture" data-toggle="modal" data-target="#exampleModal">
+        <div class="picture imgArt11" data-toggle="modal" data-target="#exampleModal" onclick="pickImage(11)">
         </div>
 
-        <div class="picture" data-toggle="modal" data-target="#exampleModal">
+        <div class="picture imgArt12" data-toggle="modal" data-target="#exampleModal" onclick="pickImage(12)">
         </div>
 
-        <div class="picture" data-toggle="modal" data-target="#exampleModal">
+        <div class="picture imgArt13" data-toggle="modal" data-target="#exampleModal" onclick="pickImage(13)">
         </div>
 
-        <div class="picture" data-toggle="modal" data-target="#exampleModal">
+        <div class="picture imgArt14" data-toggle="modal" data-target="#exampleModal" onclick="pickImage(14)">
         </div>
 
-        <div class="picture" data-toggle="modal" data-target="#exampleModal">
+        <div class="picture imgArt15" data-toggle="modal" data-target="#exampleModal" onclick="pickImage(15)">
+        </div>
+
+        <div class="picture imgArt16" data-toggle="modal" data-target="#exampleModal" onclick="pickImage(16)">
+        </div>
+
+        <div class="picture imgArt17" data-toggle="modal" data-target="#exampleModal" onclick="pickImage(17)">
+        </div>
+
+        <div class="picture imgArt18" data-toggle="modal" data-target="#exampleModal" onclick="pickImage(18)">
+        </div>
+
+        <div class="picture imgArt19" data-toggle="modal" data-target="#exampleModal" onclick="pickImage(19)">
+        </div>
+
+        <div class="picture imgArt20" data-toggle="modal" data-target="#exampleModal" onclick="pickImage(20)">
+        </div>
+
+        <div class="picture imgArt21" data-toggle="modal" data-target="#exampleModal" onclick="pickImage(21)">
+        </div>
+
+        <div class="picture imgArt22" data-toggle="modal" data-target="#exampleModal" onclick="pickImage(22)">
+        </div>
+
+        <div class="picture imgArt23" data-toggle="modal" data-target="#exampleModal" onclick="pickImage(23)">
+        </div>
+
+        <div class="picture imgArt24" data-toggle="modal" data-target="#exampleModal" onclick="pickImage(24)">
+        </div>
+
+        <div class="picture imgArt25" data-toggle="modal" data-target="#exampleModal" onclick="pickImage(25)">
+        </div>
+
+        <div class="picture imgArt26" data-toggle="modal" data-target="#exampleModal" onclick="pickImage(26)">
+        </div>
+
+        <div class="picture imgArt27" data-toggle="modal" data-target="#exampleModal" onclick="pickImage(27)">
+        </div>
+
+        <div class="picture imgArt28" data-toggle="modal" data-target="#exampleModal" onclick="pickImage(28)">
+        </div>
+
+        <div class="picture imgArt29" data-toggle="modal" data-target="#exampleModal" onclick="pickImage(29)">
+        </div>
+
+        <div class="picture imgArt30" data-toggle="modal" data-target="#exampleModal" onclick="pickImage(30)">
         </div>
 
       </div>
@@ -153,7 +192,7 @@
             </button>
           </div>
           <div class="modal-body picture-large">
-            <img src="images/art/art-06.png" alt="">
+            <img id="imgLarge" class="" alt="">
           </div>
         </div>
       </div>
@@ -193,20 +232,13 @@
         <a href="https://www.youtube.com/c/sokiwiholic" target="_blank">
           <i class='fab fa-youtube'></i>
         </a>
-        <!--
-        <a href="https://www.redbubble.com/people/sorceressdream/shop" target="_blank">
-          <i class='fab fa-redbubble'></i>
-        </a>
-        <a href="https://www.teepublic.com/user/marmuller" target="_blank">
-          <i class='fab fa-teepublic'></i>
-        </a>
-        -->
       </div>
 
     </footer>
 
     <!--MI JS-->
     <script type = "text/javascript" src="js/nav.js"></script>
+    <script type = "text/javascript" src="js/gallery.js"></script>
 
     <!--JQuery-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

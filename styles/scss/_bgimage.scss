@@ -5,17 +5,49 @@
 }
 
 .imgejemplo {
-    background-image: url(../../images/bg/poisoned-2.png);
+    background-image: url(../../images/bg/poisoned.png);
     background-position: center;
     background-size: cover;
 }
 
-@for $i from 2 through 5 {
-  .imgejemplo#{$i} {
-    $i: $i - 1;
-    background-image: url(../../images/art/art-0#{$i}.png);
-    background-position: center;
-    background-size: cover;
+
+//Imagenes en chicas para galerias
+@for $i from 1 through 30 {
+  .imgArt#{$i} {
+    @if $i <= 9 {
+      background-image: url(../../images/art/preview/gallery_00#{$i}.png);
+    } @else {
+      background-image: url(../../images/art/preview/gallery_0#{$i}.png);
+    }
+  }
+}
+@for $i from 1 through 30 {
+  .imgDesign#{$i} {
+    @if $i <= 9 {
+      background-image: url(../../images/design/preview/gallery_00#{$i}.png);
+    } @else {
+      background-image: url(../../images/design/preview/gallery_0#{$i}.png);
+    }
+  }
+}
+@for $i from 1 through 30 {
+  .imgCoding#{$i} {
+    @if $i <= 9 {
+      background-image: url(../../images/coding/preview/gallery_00#{$i}.png);
+    } @else {
+      background-image: url(../../images/coding/preview/gallery_0#{$i}.png);
+    }
+  }
+}
+
+//Imagenes en grande para galerias
+@for $i from 1 through 30 {
+  .img-large-view#{$i} {
+    @if $i <= 9 {
+      content:url(../../images/art/gallery/gallery_00#{$i}.png);
+    } @else {
+      content:url(../../images/art/gallery/gallery_0#{$i}.png);
+    }
   }
 }
 
