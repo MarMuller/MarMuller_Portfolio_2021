@@ -42,7 +42,7 @@
 
 //Imagenes en grande para galerias
 @for $i from 1 through 30 {
-  .img-large-view#{$i} {
+  .art-large-view#{$i} {
     @if $i <= 9 {
       content:url(../../images/art/gallery/gallery_00#{$i}.png);
     } @else {
@@ -50,7 +50,27 @@
     }
   }
 }
+@for $i from 1 through 30 {
+  .design-large-view#{$i} {
+    @if $i <= 9 {
+      content:url(../../images/design/gallery/gallery_00#{$i}.png);
+    } @else {
+      content:url(../../images/design/gallery/gallery_0#{$i}.png);
+    }
+  }
+}
+@for $i from 1 through 30 {
+  .coding-large-view#{$i} {
+    @if $i <= 9 {
+      content:url(../../images/coding/gallery/gallery_00#{$i}.png);
+    } @else {
+      content:url(../../images/coding/gallery/gallery_0#{$i}.png);
+    }
+  }
+}
 
+
+//Banner cada Seccion
 .img-illustration {
     background-image: url(../../images/jpg/foto_1.jpg);
     background-position: center;

@@ -36,8 +36,19 @@ while(e<=30){
 
 
 //Pick up Image Number
-function pickImage(num) {
+function pickImage(num, sec) {
   let imageNum = num;
-  var imgLarge = document.getElementById("imgLarge");
-  imgLarge.className = "img-large-view"+imageNum;
+  let section = sec;
+
+  if (section == 1) {
+    var imgLarge = document.getElementById("imgLarge");
+    imgLarge.className = "art-large-view"+imageNum;
+  } else if (section == 2) {
+    var imgLarge = document.getElementById("imgLarge");
+    imgLarge.className = "design-large-view"+imageNum;
+  } else if (section == 3) {
+    var imgLarge = document.getElementById("imgLarge");
+    imgLarge.className = "coding-large-view"+imageNum;
+  }
+
 }

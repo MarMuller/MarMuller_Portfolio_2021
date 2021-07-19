@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,400i|Roboto:300,400,400i');
-@import "variables";
+@import "colors";
 @import "default";
 @import "sizes";
 @import "bgimage";
@@ -328,6 +328,7 @@ a.my-button-download {
 
 #block__gallery {
   /*padding: 90px 0 0 0;*/
+  background-color: $lightBG;
 }
 
 .gallery {
