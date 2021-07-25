@@ -1044,20 +1044,23 @@ div {
   background-image: url(../../images/jpg/foto_1.jpg);
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
-/* line 80, ../../../../GitHub/portfolio-muller/styles/scss/_bgimage.scss */
+/* line 81, ../../../../GitHub/portfolio-muller/styles/scss/_bgimage.scss */
 .img-design {
   background-image: url(../../images/jpg/foto_2.jpg);
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
-/* line 86, ../../../../GitHub/portfolio-muller/styles/scss/_bgimage.scss */
+/* line 88, ../../../../GitHub/portfolio-muller/styles/scss/_bgimage.scss */
 .img-coding {
   background-image: url(../../images/jpg/foto_3b.jpg);
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* line 7, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
