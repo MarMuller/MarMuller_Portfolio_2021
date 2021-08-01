@@ -1486,6 +1486,7 @@ a.my-button-download:hover {
 
 /* line 373, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
 .picture {
+  cursor: default;
   width: 20%;
   height: 20vw;
   border: 0.5px solid #dee2e6;
@@ -1501,29 +1502,29 @@ a.my-button-download:hover {
   transition-timing-function: ease-out;
 }
 
-/* line 389, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+/* line 390, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
 .picture:hover {
   filter: grayscale(10%);
   opacity: 1.0;
 }
 
-/* line 395, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+/* line 396, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
 .img-dialog {
   max-width: fit-content;
   margin: 4rem auto;
 }
 
-/* line 400, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+/* line 401, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
 .img-header {
   padding: 0.5rem 0.5rem 0.3rem 0.5rem;
 }
 
-/* line 404, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+/* line 405, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
 .img-title.h5, h5 {
   font-size: 1rem;
 }
 
-/* line 408, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+/* line 409, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
 .picture-large {
   padding: 0;
   background-size: 100% auto;
@@ -1534,7 +1535,7 @@ a.my-button-download:hover {
   border-bottom-left-radius: calc(.3rem - 1px);
 }
 
-/* line 417, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+/* line 418, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
 .picture-large img {
   height: auto;
   max-height: 80vh;
@@ -1543,7 +1544,7 @@ a.my-button-download:hover {
   border-bottom-left-radius: calc(.3rem - 1px);
 }
 
-/* line 427, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+/* line 428, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
 #block__videos iframe {
   width: 80vw;
   max-width: 800px;
@@ -1551,34 +1552,34 @@ a.my-button-download:hover {
 }
 
 /* ALGUNOS ESTILOS GENERALES */
-/* line 437, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+/* line 438, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
 .heightAuto {
   height: 100%;
 }
 
-/* line 441, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+/* line 442, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
 .padding50 {
   padding: 50px 0;
 }
 
-/* line 445, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+/* line 446, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
 .fixed {
   position: fixed;
 }
 
-/* line 449, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+/* line 450, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
 .whitebg {
   background-color: #f2f2f2;
   color: #1a1a1a;
 }
 
-/* line 454, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+/* line 455, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
 .order {
   flex-direction: row;
 }
 
 /*TABLE*/
-/* line 462, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+/* line 463, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
 .pricesheet table {
   border-radius: 8px;
   padding: 8px;
@@ -1586,24 +1587,24 @@ a.my-button-download:hover {
   background-color: #1e1e1e;
 }
 
-/* line 469, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+/* line 470, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
 .pricesheet td, .pricesheet th {
   padding: 8px;
   text-align: center;
 }
 
 /* FONDOS IMG */
-/* line 478, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+/* line 479, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
 .imgfixed {
   background-attachment: fixed;
 }
 
-/* line 482, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+/* line 483, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
 .imgcentrado {
   background-position: center;
 }
 
-/* line 486, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+/* line 487, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
 .icontemporal {
   background-image: url(../../images/icons/icon_temporal.png);
   background-position: center;
@@ -1611,41 +1612,41 @@ a.my-button-download:hover {
 }
 
 /* FORM */
-/* line 495, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+/* line 496, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
 .no-margin {
   margin: 0;
 }
 
-/* line 499, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+/* line 500, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
 .max-width-form {
   width: 100%;
   max-width: 600px;
 }
 
-/* line 504, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+/* line 505, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
 #block__contacto {
   padding-top: 0;
   padding-bottom: 0;
 }
 
-/* line 509, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+/* line 510, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
 form {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
 }
 
-/* line 514, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+/* line 515, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
 form * {
   margin-bottom: 5px;
 }
 
-/* line 518, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+/* line 519, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
 form label {
   margin-top: 10px;
 }
 
-/* line 522, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+/* line 523, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
 form input, form textarea {
   width: calc(100% - 24px);
   padding: 12px;
@@ -1655,13 +1656,13 @@ form input, form textarea {
   font-size: 14px;
 }
 
-/* line 531, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+/* line 532, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
 form input {
   width: 100%;
   height: 30px;
 }
 
-/* line 535, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+/* line 536, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
 form input.myFormStyle:focus {
   color: #4d2e6b;
   font-weight: bold;
@@ -1672,7 +1673,7 @@ form input.myFormStyle:focus {
   box-shadow: inset 0px 0px 0px 2px #33cccc;
 }
 
-/* line 548, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+/* line 549, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
 form textarea.myFormStyle {
   resize: none;
   width: 100%;
@@ -1682,7 +1683,7 @@ form textarea.myFormStyle {
   line-height: 1.5;
 }
 
-/* line 556, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+/* line 557, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
 form textarea.myFormStyle:focus {
   color: #4d2e6b;
   font-weight: bold;
@@ -1693,7 +1694,7 @@ form textarea.myFormStyle:focus {
   box-shadow: inset 0px 0px 0px 2px #33cccc;
 }
 
-/* line 569, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+/* line 570, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
 form button.myButton {
   width: 100%;
   height: 40px;
@@ -1708,7 +1709,7 @@ form button.myButton {
   transition: opacity 0.5s ease-out;
 }
 
-/* line 582, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+/* line 583, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
 form button.myButton:hover {
   border: 3px solid #33cccc;
   border-radius: 6px;
@@ -1718,7 +1719,7 @@ form button.myButton:hover {
 }
 
 /* FOOTER */
-/* line 597, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+/* line 598, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
 footer {
   font-size: 14px;
   text-align: center;
@@ -1729,41 +1730,41 @@ footer {
   justify-content: center;
 }
 
-/* line 606, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+/* line 607, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
 footer * {
   margin: 5px 0;
 }
 
-/* line 610, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+/* line 611, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
 footer .marmuller-logo {
   width: 120px;
   height: 25px;
 }
 
-/* line 615, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+/* line 616, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
 footer div.redes * {
   margin: 0 2px;
 }
 
 @media only screen and (max-width: 768px) {
-  /* line 623, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+  /* line 624, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
   .header__banner-txt {
     transform: translateY(-50px);
   }
-  /* line 626, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+  /* line 627, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
   .header__banner-txt h1 {
     line-height: 40px;
     margin-bottom: 25px;
   }
-  /* line 632, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+  /* line 633, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
   #header__banner {
     background-image: url("../../images/bg/blue-mermaid-sm.png");
   }
-  /* line 639, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+  /* line 640, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
   a.nav__menu-button {
     display: block;
   }
-  /* line 644, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+  /* line 645, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
   .nav__menu-list {
     display: flex;
     flex-direction: column;
@@ -1778,44 +1779,44 @@ footer div.redes * {
     padding: 10px 0;
     display: none;
   }
-  /* line 656, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+  /* line 657, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
   .nav__menu-list a {
     padding: 10px 0;
   }
-  /* line 663, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+  /* line 664, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
   .half-section {
     width: 100%;
   }
-  /* line 669, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+  /* line 670, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
   .picture {
     width: 50%;
     height: 50vw;
   }
-  /* line 674, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+  /* line 675, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
   .section {
     height: auto;
     flex-direction: column;
   }
-  /* line 679, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+  /* line 680, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
   .order {
     flex-direction: column-reverse;
   }
-  /* line 683, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+  /* line 684, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
   .img-icons {
     margin-bottom: 20px;
   }
-  /* line 686, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+  /* line 687, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
   .img-icons img {
     width: 60vw;
     height: 60vw;
   }
-  /* line 692, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+  /* line 693, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
   .space-between {
     display: flex;
     justify-content: center;
     flex-direction: column;
   }
-  /* line 698, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
+  /* line 699, ../../../../GitHub/portfolio-muller/styles/scss/style.scss */
   .max-width-form {
     padding: 0 25px;
   }
